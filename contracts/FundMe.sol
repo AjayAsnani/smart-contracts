@@ -20,7 +20,7 @@ contract FundMe {
     mapping(address => uint256) private s_addressToAmountFunded;
     AggregatorV3Interface private s_priceFeed;
 
-    // Events (we have none!)
+  
 
     // Modifiers
     modifier onlyOwner() {
